@@ -1,0 +1,52 @@
+.main-container {
+width: 600px;
+height: 600px;
+background-color: lightskyblue;
+border: 1px sold black;
+margin: 30px;
+}
+.row {
+  height: 50%;
+}
+.row:last-child {
+background-color: moccasin;
+display: flex;
+border-top: 1px sold black;
+}
+
+.small-container {
+width: 50%;
+}
+.small-container.right {
+  background-color: coral;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  border-left: 1px sold black;
+}
+
+.target-div {
+  height: 50%;
+  width: 50%;
+  background-color: brown;
+  border-top: 1px sold black;
+  border-left: 1px sold black;
+}
+
+.small-container.right2 {
+  position: relative;
+  background-color: coral;
+  border-left: 1px sold black;
+
+}
+
+.target-div2 {
+  height: 50%;
+  width: 50%;
+  background-color: brown;
+  border-top: 1px sold black;
+  border-left: 1px sold black;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
