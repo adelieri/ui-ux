@@ -16,7 +16,7 @@
   .row:last-child {
   background-color: moccasin;
   display: flex;
-  border-top: 1px sold black;
+  border-top: 1px solid black;
   }
   
   .small-container {
@@ -27,21 +27,21 @@
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
-    border-left: 1px sold black;
+    border-left: 1px solid black;
   }
   
   .target-div {
     height: 50%;
     width: 50%;
     background-color: brown;
-    border-top: 1px sold black;
-    border-left: 1px sold black;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
   }
   
   .small-container.right1 {
     position: relative;
     background-color: coral;
-    border-left: 1px sold black;
+    border-left: 1px solid black;
   
   }
   
@@ -49,8 +49,8 @@
     height: 50%;
     width: 50%;
     background-color: brown;
-    border-top: 1px sold black;
-    border-left: 1px sold black;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
     position: absolute;
     right: 0;
     bottom: 0;
