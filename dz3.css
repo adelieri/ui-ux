@@ -1,0 +1,50 @@
+.main-container {
+    width: 800px;
+    height: 600px;
+    display: flex;
+    align-items: flex-end;
+    border: 1px solid black;
+    margin-bottom: 30px;
+    }
+  
+    .row {
+      height: 570px;
+      flex-grow: 1;
+    }
+  
+    .row:last-child {
+        display: flex;
+        border-top: 1px solid black;
+        }
+        
+        .small-container {
+        width: 150px;
+        }
+
+        .circle {
+            width: 70px;
+            height: 70px;
+            background: lightblue;
+            border-radius: 50px;
+            font-size: 1em;
+            color: white;
+            display: table-cell;
+            text-align: center;
+            vertical-align: middle;
+        }
+ 
+        .small-container.right {
+          display: flex;
+          justify-content: flex-end;
+          align-items: flex-end;
+          border-left: 1px solid black;
+        }
+        
+        .small-container.right1 {
+          overflow: scroll;
+          width: 650px;
+          position: relative;
+          border-left: 1px solid black;
+        
+        }
+        
