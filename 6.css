@@ -1,0 +1,179 @@
+/*
+END OF
+*/
+
+body {
+    margin: 0;
+
+}
+
+.button {
+outline: none;
+cursor: pointer;
+}
+
+
+h2 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #4a4a4a;
+    margin: 0;
+}
+
+h3 {
+    font-size: 16px;
+    font-weight: 500;
+    color: #4a4a4a;
+    margin: 0;
+}
+
+.container {
+    max-width: :1170px;
+    margin:auto;
+}
+
+.first-screen {
+    height:  900px;
+    position: absolute;
+    flow: hidden;
+}
+
+.first-section-back {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+}
+
+.first-screen .container {
+    position: relative;
+}
+
+.green-button {
+    width: 170px;
+    height: 55px;
+    text-align: center;
+    line-height: 55px;
+    color: white;
+    background-color: #a0D334;
+    font-size: 14px;
+}
+
+.green-button:hover {
+    background-color: #a0De38;
+}
+
+.contact-me-btn {
+    width: 170px;
+    height: 55px;
+    border: 1px solid white;
+    text-align:  center;
+    line-height: 53px;
+    cursor:pointer;
+    background-color: transparent;
+    font-size: 14px;
+    color: white;
+    transition: all .3s ease-in-out;
+}
+
+.contact-me-btn:hover {
+
+}
+
+.about-me {
+    position: absolute;
+    top:310px;
+    right:87px;
+
+}
+
+.about-me .common-text {
+font-size: 20px;
+color: white;
+padding-left: 5px;
+}
+
+.getting-started-btn {
+    margin-top: 60px;
+
+}
+.rotated-back {
+    position: absolute;
+    bottom:  -144px;
+    right: -20px;
+    background-color: white;
+    transform: rotateZ (-7deg);
+    width: 113%;
+    height: 220px;
+
+}
+
+
+/* 
+END OF FIRST SCREEN 
+*/
+.services-section {
+    padding-top: 33px;
+    padding-bottom: 71px;
+}
+
+.services-section .container{
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+.services-about {
+    width: 365px;
+}
+
+.services-about p {
+    color: #6e6e6e;
+    margin: 
+    
+
+}
+
+.services-cards-container {
+    display: grid;
+    grid-template-columns: 338px 338px;
+    grid-template-rows: 175px 175px;
+    gap: 30px;
+}
+
+.service-card {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0 0 30px rgba(172, 172, 172, .16)
+}
+
+.icon-and-title {
+    display: flex;
+    align-items: center;
+}
+
+.icon-and-title  .icon-container{
+    flex-shrink: 0;
+    width: 55px;
+}
+
+.service-card p {
+    font-size: 14px;
+    color: #6e6e6e;
+    line-height: 27px;
+    margin: 0;
+    padding-left: 55px;
+
+}
+
+
+/* 
+END OF SERVICES
+*/
+
+footer {
+    height:  473px;
+    background: linear-gradient() 45deg, #7Aff5f;
+}
