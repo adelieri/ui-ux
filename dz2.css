@@ -1,0 +1,23 @@
+body {
+    background-color: yellowgreen;
+}
+
+
+p { 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; text-shadow: 2px 4px 10px blue;
+}
+
+.center {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+* {
+    text-align: center;
+    color: blue;
+  }
+
+table {
+    border: 3px dashed salmon;
+}

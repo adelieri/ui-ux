@@ -6,17 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link rel="stylesheet" href="dz2.css">
 </head>
 
 <body>
     <form action="" target="_blank">
         <h1>Вакансия: Junior Frontend Developer</h1>
-        <p><img src="http://memesmix.net/media/created/ig02b4.jpg" style="float:left" width="144" height="144">
-            <span>Имя: Аделя</span>
+        <p class="center"><img src="http://memesmix.net/media/created/ig02b4.jpg" style="float:left" width="144"
+                height="144">
+            <br>
+            <p></p><span>Имя: Аделя</span>
             <br>
             <a href="https://github.com/adelieri " target="_blank">Ссылка на репозиторий в GitHub</a> </a>
             <br>
-            <span>Опыт работы: нет</span></p><br><br><br><br>
+            <span>Опыт работы: нет</span>
+        </p>
+        </p><br>
         <p>Дата собеседования <input type="date" name="data"></p>
         <p>Уровень английского</p>
         <input type="radio" name="grade" id="grade1"><label for="grade1">Плохо</label>
@@ -24,15 +29,17 @@
         <input type="radio" name="grade" id="grade3"><label for="grade3">Хорошо</label>
         <input type="radio" name="grade" id="grade4"><label for="grade4">Превосходно</label>
         <br>
-        <p>Ключевые навыки:</p>
-        <ul>
-            <li>HTML</li>
-            <li>CSS/LESS</li>
-            <li>JavaScript</li>
-            <li>...</li>
-            <input type="text" name="navyk" placeholder="Введите навык...">
-            <input type="submit" value="Добавить в список">
-        </ul>
+        <div class="center">
+            <p>Ключевые навыки:</p>
+            <ul>
+                <li>HTML</li>
+                <li>CSS/LESS</li>
+                <li>JavaScript</li>
+                <li>...</li>
+            </ul>
+        </div>
+        <input type="text" name="navyk" placeholder="Введите навык...">
+        <input type="submit" value="Добавить в список">
         <p>Коммуникабельность:
             <select name="" id="">
                 <option value="Молчит">Молчит</option>
@@ -46,7 +53,7 @@
         <input type="checkbox" name="kriteriy" id="check3"><label for="">Навыки</label>
         <input type="checkbox" name="kriteriy" id="check4"><label for="">Сразу видно, свой человек</label>
         <p>Образование, курсы и т.п.
-            <table border="1">
+            <table style="margin: auto;">
                 <thead>
                     <tr>
                         <th>#</th>
