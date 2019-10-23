@@ -36,3 +36,7 @@ box-shadow: 0 0 0 0.2rem rgba(40,167,69,.5);
 .card-deck {
     padding-top: 20px;
 }
+
+.navbar-light .navbar-brand{
+    color: forestgreen;
+}
