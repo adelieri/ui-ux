@@ -1,50 +1,48 @@
-.main-container {
-    width: 800px;
-    height: 600px;
-    display: flex;
-    align-items: flex-end;
-    border: 1px solid black;
-    margin-bottom: 30px;
-    }
-  
-    .row {
-      height: 570px;
-      flex-grow: 1;
-    }
-  
-    .row:last-child {
-        display: flex;
-        border-top: 1px solid black;
-        }
-        
-        .small-container {
-        width: 150px;
-        }
+*{
+font-family: 'Raleway', sans-serif;
+}
 
-        .circle {
-            width: 70px;
-            height: 70px;
-            background: lightblue;
-            border-radius: 50px;
-            font-size: 1em;
-            color: white;
-            display: table-cell;
-            text-align: center;
-            vertical-align: middle;
-        }
- 
-        .small-container.right {
-          display: flex;
-          justify-content: flex-end;
-          align-items: flex-end;
-          border-left: 1px solid black;
-        }
-        
-        .small-container.right1 {
-          overflow: scroll;
-          width: 650px;
-          position: relative;
-          border-left: 1px solid black;
-        
-        }
-        
+header {
+ width:800px;
+ height: 70px;
+}
+
+header,
+.circle {
+ background-color: lightgrey;
+}
+
+.main-container {
+ display: flex;
+ flex-direction: column;
+ overflow: auto;
+ width: 800px;
+ height: 600px;
+ background-color: rgb(95, 95, 95);
+ margin-bottom: 30px;
+}
+
+.circle {
+ width: 70px;
+ height: 70px;
+ border-radius: 50%;
+ display: inline-block;
+ font-size: 20px;
+ line-height: 70px;
+ color: white;
+ font-weight: bold;
+ text-align: center;
+ vertical-align: middle;
+}
+
+span {
+ font-weight: 600;
+}
+
+p {
+ background-color: rgb(124, 145, 172);
+ padding: .5em;
+ font-weight: lighter;
+ max-width: 70%;
+}
+
