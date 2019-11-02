@@ -3,24 +3,48 @@ let isModalVisible = false;
 
 function burgerClick() {
     if (isBurgerClicked) {
-        burger.classlist.remove("is-active");
+        burger.classList.remove("is-active");
     } else {
-    burger.classlist.add("is-active");
+        burger.classList.add("is-active");
     }
 
-    isBurgerClicked = !isBurgerClicked
+    isBurgerClicked = !isBurgerClicked;
 }
 
 function modalToggle() {
-    if (isModalVisible) {
-        modal.classlist.remove("visible");
+    if (isModalVisible) { // здесь проверяется условие видимости модалки
+        modal.classList.remove("visible"); // если модалка было отображена, мы её скрываем
     } else {
-    modal.classlist.add("visible");
+        modal.classList.add("visible");
     }
 
-    isModalVisible = !isModalVisible
+    isModalVisible = !isModalVisible;
 }
 
-function modalInnerClick (event) {
+function modalInnerClick(event) {
     event.stopPropagation();
+}
+
+
+let aaa = prompt('aaaaaaa');
+console.log(aaa);
+alert('aaaaaaa'); {
+
+
+    //в этой переменной номер видимого кадра
+    let = currentSlide = 0;
+
+    //direction 1 или -1*
+    function doSlide(direction) {
+        //предыдущий кадр - прерывание
+        if (currentSlide === 0 && direction < 0) {
+            return;
+        }
+
+        if (currentSlide === 2 && direction > 0) {
+            return;
+        }
+    }
+    currentSlide = currentSlide + direction;
+    carousel.style.transform = `translateX(calc(-${currentSlide}00% - ${currentSlide * 3}0px))`
 }
